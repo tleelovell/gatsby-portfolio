@@ -85,7 +85,23 @@ const Index = () => (
             bg="#23262b"
           >
             This is a repo for my under-grad research project where I built a digital guitar pedal and created various effects processing 
-            algorithms to alter the analog signal. \m/ 
+            algorithms to alter the analog signal. <br />\m/ 
+          </ProjectCard>
+          <ProjectCard
+            title="Banno Platform"
+            link="https://banno.com/digital-banking-suite/"
+            bg="#23262b"
+          >
+            I work on the data-services team at Banno creating services and custom back-ends for our CMS customers.
+            We use Scala in a functional style for most of our services. 
+          </ProjectCard>
+          <ProjectCard
+            title="A Lovelly Wedding"
+            link="https://alovellywedding.github.io/ALovellyWedding/"
+            bg="#23262b"
+          >
+            This is the site I built for my wife and I's wedding! <br />
+            It was a great time, you should've been there.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
