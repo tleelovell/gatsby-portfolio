@@ -121,7 +121,7 @@ const Index = () => (
            Hire me.
           <br />
           <br />
-          If I'm not programming I'm either hanging out with my wife or taking too many pictures of my cats.
+          If I'm not programming I'm either hanging out with my wife or throwing things at my cats.
         </AboutDesc>
       </About>
       <Contact offset={4}>
