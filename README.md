@@ -1,2 +1,2 @@
-''Tanner Lovell's Gatsby Portfolio''
- - This is my web portfolio created using gatsby and react.
+# Tanner Lovell's Gatsby Portfolio
+This is my web portfolio created using gatsby and react.
