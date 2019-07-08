@@ -72,9 +72,9 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Brown's Shoe Fit (Clinton, IA)"
+            title="Brown's Shoe Fit"
             link="http://shoesclinton.com/"
-            bg="black"
+            bg="#23262b"
           >
             This is a promotional website I created for a long-running shoe store in Clinton, Iowa that wanted to update and modernize. 
             Hoping to re-build using modern technologies such as gatsby and react. 
@@ -82,7 +82,7 @@ const Index = () => (
           <ProjectCard
             title="DIY DSP"
             link="https://github.com/LovellyWeather/DIY-DSP"
-            bg="black"
+            bg="#23262b"
           >
             This is a repo for my under-grad research project where I built a digital guitar pedal and created various effects processing 
             algorithms to alter the analog signal. \m/ 
