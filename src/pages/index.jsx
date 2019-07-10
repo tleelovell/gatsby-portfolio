@@ -62,10 +62,11 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>Hello!</BigTitle>
+        <BigTitle>Howdy! <span role="img" aria-label="wave">👋</span></BigTitle>
         <Subtitle>
           My name is Tanner Lovell. <br />
-          I'm a software engineer and really like to make cool stuff.
+          I'm a software engineer and I make cool stuff. <br />
+          Need a Website? <a href="mailto:tleelovell@gmail.com">Hire me.</a>
         </Subtitle>
       </Hero>
       <Projects offset={1}>
@@ -76,32 +77,32 @@ const Index = () => (
             link="http://shoesclinton.com/"
             bg="#23262b"
           >
-            This is a promotional website I created for a long-running shoe store in Clinton, Iowa that wanted to update and modernize. 
-            Hoping to re-build using modern technologies such as gatsby and react. 
+            Informative website for Brown's Shoe Fit Co.<br />
+            Built With: HTML5, Sass, and Bootstrap
           </ProjectCard>
           <ProjectCard
             title="DIY DSP"
             link="https://github.com/LovellyWeather/DIY-DSP"
             bg="#23262b"
           >
-            This is a repo for my under-grad research project where I built a digital guitar pedal and created various effects processing 
-            algorithms to alter the analog signal. <br />\m/ 
+            Under-grad reasearch project iteration for creating a digital guitar pedal<br />
+            Built With: HTML5, CSS, C
           </ProjectCard>
           <ProjectCard
             title="Banno Platform"
             link="https://banno.com/digital-banking-suite/"
             bg="#23262b"
           >
-            I work on the data-services team at Banno creating services and custom back-ends for our CMS customers.
-            We use Scala in a functional style for most of our services. 
+            Digital Banking Suite that I write services for at my full-time job.<br />
+            Built With: Scala, Play, Node.js
           </ProjectCard>
           <ProjectCard
             title="A Lovelly Wedding"
             link="https://alovellywedding.github.io/ALovellyWedding/"
             bg="#23262b"
           >
-            This is the site I built for my wife and I's wedding! <br />
-            It was a great time, you should've been there.
+            Website for my wife and I's wedding. <br />
+            Built With: Bootstrap, CSS, JavaScript
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -110,17 +111,11 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            I'm currently employed as a Back-End Software Engineer at Banno. I
-            spend most of my time creating custom forms and services for the
-            Banno Platform using Scala.
+            I'm currently employed as a Back-End Software Engineer at Banno/Jack Henry & Associates.
+            I write API's and Services using Scala and functional programming practices.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          I also side-gig as a freelance web developer.
-          Need a website or app? <br />
-           Hire me.
-          <br />
-          <br />
           If I'm not programming I'm either hanging out with my wife or throwing things at my cats.
         </AboutDesc>
       </About>

@@ -33,7 +33,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
-        icon: "src/images/TannerPic.jpg"
+        icon: 'src/images/logo.png',
       },
     },
     /* Must be placed at the end */
