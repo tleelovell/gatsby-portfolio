@@ -15,14 +15,14 @@ const Wrapper = styled.a`
 `
 
 const Title = styled.div`
-  ${tw`text-white text-3xl md:text-4xl xl:text-5xl tracking-wide pt-8`};
+  ${tw`text-white font-sans text-3xl md:text-4xl xl:text-5xl tracking-wide pt-8`};
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   padding: 0 0 1rem 0;
   font-weight: bold;
 `
 
 const Text = styled.div`
-  ${tw`opacity-75 text-white text-lg`};
+  ${tw`opacity-75 font-sans text-white text-lg`};
   line-height: 1.5rem;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
