@@ -10,7 +10,7 @@ import SVG from '../components/SVG'
 const Projects = ({ children, offset }) => (
   <>
     <DividerMiddle
-      bg="#23262b"
+      bg="#353f51"
       speed={-0.2}
       offset={`${offset}.1`}
       factor={2}

@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 
 const Hero = ({ children, offset }) => (
   <>
-    <Divider speed={0.2} offset={offset} bg="#23262b">
+    <Divider speed={0.2} offset={offset} bg="#353f51">
       <UpDown>
         <SVG icon="triangle" hiddenMobile width={48} stroke={colors.purple} left="10%" top="20%" />
         <SVG icon="hexa" width={48} stroke={colors.red} left="60%" top="70%" />

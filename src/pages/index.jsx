@@ -62,7 +62,12 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>Howdy! <span role="img" aria-label="wave">👋</span></BigTitle>
+        <BigTitle>
+          Howdy!{" "}
+          <span role="img" aria-label="wave">
+            👋
+          </span>
+        </BigTitle>
         <Subtitle>
           My name is Tanner Lovell. <br />
           I'm a software engineer and I make cool stuff. <br />
@@ -75,33 +80,36 @@ const Index = () => (
           <ProjectCard
             title="Brown's Shoe Fit"
             link="http://shoesclinton.com/"
-            bg="#23262b"
+            bg="#3a4557"
           >
-            Informative website for Brown's Shoe Fit Co.<br />
+            Informative website for Brown's Shoe Fit Co.
+            <br />
             Built With: HTML5, Sass, and Bootstrap
           </ProjectCard>
           <ProjectCard
             title="DIY DSP"
             link="https://github.com/LovellyWeather/DIY-DSP"
-            bg="#23262b"
+            bg="#3a4557"
           >
-            Under-grad reasearch project iteration for creating a digital guitar pedal<br />
+            Under-Grad Research Project
+            <br />
             Built With: HTML5, CSS, C
           </ProjectCard>
           <ProjectCard
             title="Banno Platform"
             link="https://banno.com/digital-banking-suite/"
-            bg="#23262b"
+            bg="#3a4557"
           >
-            Digital Banking Suite that I write services for at my full-time job.<br />
+            The main product I work on at my full-time job.
+            <br />
             Built With: Scala, Play, Node.js
           </ProjectCard>
           <ProjectCard
             title="A Lovelly Wedding"
             link="https://alovellywedding.github.io/ALovellyWedding/"
-            bg="#23262b"
+            bg="#3a4557"
           >
-            Website for my wife and I's wedding. <br />
+            A Website I built for my wife and I's wedding. <br />
             Built With: Bootstrap, CSS, JavaScript
           </ProjectCard>
         </ProjectsWrapper>
@@ -111,27 +119,26 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            I'm currently employed as a Back-End Software Engineer at Banno/Jack Henry & Associates.
-            I write API's and Services using Scala and functional programming practices.
+            I'm currently employed as a Back-End Software Engineer at Banno/Jack
+            Henry & Associates. I write API's and Services using Scala and
+            functional programming practices.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          If I'm not programming I'm either hanging out with my wife or throwing things at my cats.
+          If I'm not programming I'm either hanging out with my wife or throwing
+          things at my cats.
         </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:tleelovell@gmail.com">Hi</a> or find me on
-            other platforms:{" "}
-            <a href="https://twitter.com/tleelovell">Twitter</a> &{" "}
+            Say <a href="mailto:tleelovell@gmail.com">Hi</a> or find me on other
+            platforms: <a href="https://twitter.com/tleelovell">Twitter</a> &{" "}
             <a href="https://www.instagram.com/pan_lovell/">Instagram</a>
           </ContactText>
         </Inner>
-        <Footer>
-          &copy; 2019 Gatsby Developer Portfolio{" "}
-        </Footer>
+        <Footer>&copy; 2019 Gatsby Developer Portfolio </Footer>
       </Contact>
     </Parallax>
   </>
