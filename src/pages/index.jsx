@@ -42,11 +42,11 @@ const Avatar = styled.img`
 `;
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-xl lg:text-2xl xl:text-3xl`};
 `;
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`text-grey-light text-md md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
 `;
 
 const ContactText = styled.p`
@@ -82,7 +82,7 @@ const Index = () => (
             link="http://shoesclinton.com/"
             bg="#3a4557"
           >
-            Informative website for Brown's Shoe Fit Co.
+            Website for Brown's Shoe Fit Co.
             <br />
             Built With: HTML5, Sass, and Bootstrap
           </ProjectCard>
@@ -100,7 +100,7 @@ const Index = () => (
             link="https://banno.com/digital-banking-suite/"
             bg="#3a4557"
           >
-            The main product I work on at my full-time job.
+            The primary product I work on at my full-time employer.
             <br />
             Built With: Scala, Play, Node.js
           </ProjectCard>
@@ -119,15 +119,17 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            I'm currently employed as a Back-End Software Engineer at Banno/Jack
-            Henry & Associates. I write API's and Services using Scala and
-            functional programming practices.
+            I'm currently employed as a Back-End Software Engineer at Jack Henry & Associates. 
+            <hr />
+            I develop features for our Custom CMS, Banno Platform, using
+            Scala and Functional Programming practices.
+            <hr />
+            In my free time I like to play{" "} 
+            <span role="img" aria-label="guitar">
+            🎸
+          </span> and throw things at my cats.
           </AboutSub>
         </AboutHero>
-        <AboutDesc>
-          If I'm not programming I'm either hanging out with my wife or throwing
-          things at my cats.
-        </AboutDesc>
       </About>
       <Contact offset={4}>
         <Inner>
