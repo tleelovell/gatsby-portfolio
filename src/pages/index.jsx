@@ -127,7 +127,8 @@ const Index = () => (
             In my free time I like to play{" "} 
             <span role="img" aria-label="guitar">
             🎸
-          </span> and throw things at my cats.
+            </span> 
+            and throw things at my cats.
           </AboutSub>
         </AboutHero>
       </About>

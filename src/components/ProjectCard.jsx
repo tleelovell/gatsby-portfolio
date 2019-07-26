@@ -24,7 +24,6 @@ const Title = styled.div`
 const Text = styled.div`
   ${tw`opacity-75 text-white text-lg`};
   line-height: 1.5rem;
-  font-family: sans-serif;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
 
