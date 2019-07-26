@@ -42,7 +42,7 @@ const Avatar = styled.img`
 `;
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-xl lg:text-2xl xl:text-3xl`};
+  ${tw`text-white font-sans pt-12 lg:pt-0 lg:pl-12 text-xl lg:text-2xl xl:text-3xl`};
 `;
 
 const AboutDesc = styled.p`
