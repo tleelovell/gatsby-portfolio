@@ -150,7 +150,7 @@ const Index = () => (
             <a href="https://www.instagram.com/pan_lovell/">Instagram</a>
           </ContactText>
         </Inner>
-        <Footer>&copy; 2019 Gatsby Developer Portfolio </Footer>
+        <Footer>&copy; Tanner Lovell's 2020 Developer Portfolio </Footer>
       </Contact>
     </Parallax>
   </>
