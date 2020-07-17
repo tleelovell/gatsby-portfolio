@@ -80,7 +80,7 @@ const Index = () => (
           <ProjectCard
             title="BROWN'S"
             link="http://shoesclinton.com/"
-            bg="#3a4557"
+            bg="#22007C"
           >
             Website for Brown's Shoe Fit Co.
             <br />
@@ -90,7 +90,7 @@ const Index = () => (
           <ProjectCard
             title="DIY DSP"
             link="https://github.com/LovellyWeather/DIY-DSP"
-            bg="#3a4557"
+            bg="#22007C"
           >
             Under-grad research project.
             <br />
@@ -100,7 +100,7 @@ const Index = () => (
           <ProjectCard
             title="BANNO PLATFORM"
             link="https://banno.com/digital-banking-suite/"
-            bg="#3a4557"
+            bg="#22007C"
           >
             The primary product I work on at my full-time employer.
             <br />
@@ -110,7 +110,7 @@ const Index = () => (
           <ProjectCard
             title="A LOVELLY WEDDING"
             link="https://alovellywedding.github.io/ALovellyWedding/"
-            bg="#3a4557"
+            bg="#22007C"
           >
             A Website I built for my wife and I's wedding.
             <br />
